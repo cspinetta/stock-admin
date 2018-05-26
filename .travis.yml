@@ -1,0 +1,12 @@
+language: java
+
+install:
+  - ./gradlew assemble
+
+script:
+  - ./gradlew test
+
+jdk:
+   - oraclejdk8
+
+sudo: false
